@@ -30,7 +30,7 @@ The solution was the implementation of SMOTE on the training set to synthesize m
 
 Feature importance analysis with Gini Impurity reveals that the two behaviors are governed by different mechanisms. Medical Consumption is strongly predicted by age and contact with the mental health system. It follows a clinical, structural pattern. On the other hand, on Non-Prescription Misuse the influence of age diminishes significantly. Instead, risk perception and other substances use history, like tobacco, emerge as dominant predictors.
 
-![Feature Importance Comparison](images/dumbbell_chart.jpg)
+![Feature Importance Comparison](images/dumbbell_chart.png)
 *Figure 1: Dumbbell chart illustrating the shift in feature importance between the Medical Model in blue and the Misuse Model in orange.*
 
 A correlation analysis confirms the direction of these effects. A high perception of risk acts as a significant deterrent (negative correlation) for self-medication. A history of tobacco consumption acts as a positive driver for tranquilizer misuse, suggesting a behavioral cluster of risk-taking.
