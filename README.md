@@ -59,10 +59,10 @@ Finally, the use of SMOTE introduces synthetic examples to balance the minority 
 To replicate this analysis:
 
 1.  **Environment:** Python 3.9+ with libraries listed in `requirements.txt`.
-2.  **Execution:** Run the Jupyter Notebook located in the `notebooks/` directory.
+2.  **Execution:** Run the Jupyter Notebook located in the `notebook/` directory.
     ```bash
     pip install -r requirements.txt
-    jupyter notebook notebooks/tranquilizer_misuse_analysis.ipynb
+    jupyter notebook notebook/tranquilizer_misuse_analysis.ipynb
     ```
 
 ---
